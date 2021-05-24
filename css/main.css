@@ -612,14 +612,12 @@ section .wave {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  outline: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .portfolio .projects .project .cover .links a {
-  outline: 2px solid blue;
   color: var(--dark);
   font-size: 3em;
   margin: 20px;

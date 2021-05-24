@@ -389,12 +389,9 @@ section {
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
-                    outline: 2px solid red;
-
                     display: flex;
 
                     a {
-                        outline: 2px solid blue;
                         color: var(--dark);
                         font-size: 3em;
                         margin: 20px;
