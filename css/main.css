@@ -23,10 +23,14 @@
   --chip-color-5: #91b3bc;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background: var(--dark);
   font-size: var(--font-size);
-  overflow-x: hidden;
+  overflow: hidden;
   scroll-behavior: smooth;
   font-family: 'Montserrat', sans-serif;
 }
