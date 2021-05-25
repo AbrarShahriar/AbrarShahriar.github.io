@@ -156,15 +156,15 @@ section {
     }
     @keyframes float4 {
         0%, 100% {  bottom: 0; right: 20%; }
-        25% { bottom: -10%; right: 70%; }
-        50% { bottom: 30%; right: -20%; }
+        25% { bottom: 10%; right: 70%; }
+        50% { bottom: 30%; right: 20%; }
         75% { bottom: 70%; right: 30%; }
     }
     @keyframes float5 {
         0%, 100% { top: 20%; right: 70%; }
         25% { top: 57%; right: 0%; }
         50% { top: 40%; right: 40%; }
-        75% { top: 10%; right: -20%; }
+        75% { top: 10%; right: 20%; }
     }
 
     .hero {

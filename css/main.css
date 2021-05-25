@@ -277,12 +277,12 @@ section .blob-5 {
     right: 20%;
   }
   25% {
-    bottom: -10%;
+    bottom: 10%;
     right: 70%;
   }
   50% {
     bottom: 30%;
-    right: -20%;
+    right: 20%;
   }
   75% {
     bottom: 70%;
@@ -296,12 +296,12 @@ section .blob-5 {
     right: 20%;
   }
   25% {
-    bottom: -10%;
+    bottom: 10%;
     right: 70%;
   }
   50% {
     bottom: 30%;
-    right: -20%;
+    right: 20%;
   }
   75% {
     bottom: 70%;
@@ -324,7 +324,7 @@ section .blob-5 {
   }
   75% {
     top: 10%;
-    right: -20%;
+    right: 20%;
   }
 }
 
@@ -343,7 +343,7 @@ section .blob-5 {
   }
   75% {
     top: 10%;
-    right: -20%;
+    right: 20%;
   }
 }
 
