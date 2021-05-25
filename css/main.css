@@ -913,5 +913,16 @@ section .wave {
   display: inline-block;
   border-radius: 50px;
   font-weight: 600;
+  -webkit-box-shadow: 0 0 7px -5px rgba(0, 0, 0, 0.75);
+          box-shadow: 0 0 7px -5px rgba(0, 0, 0, 0.75);
+  -webkit-transition: -webkit-transform 100ms ease-out;
+  transition: -webkit-transform 100ms ease-out;
+  transition: transform 100ms ease-out;
+  transition: transform 100ms ease-out, -webkit-transform 100ms ease-out;
+}
+
+.contact form .btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 /*# sourceMappingURL=main.css.map */

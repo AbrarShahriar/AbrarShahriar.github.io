@@ -668,6 +668,12 @@ section {
             display: inline-block;
             border-radius: 50px;
             font-weight: 600;
+            box-shadow: 0 0 7px -5px rgba(0, 0, 0, .75);
+            transition: transform 100ms ease-out;
+
+            &:hover {
+                transform: scale(1.05);
+            }
         }
     }
 }
